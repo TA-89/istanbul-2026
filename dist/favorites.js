@@ -8,25 +8,18 @@
   const has=id=>store.get().state.favorites.includes(id);
   const isBooked=id=>TripPlanner.booked.includes(id);
   const control=p=>p.id==='eminonu'?'':isBooked(p.id)?'<span class="favorite-booked">✓ Bereits reserviert</span>':`<label class="favorite-check ${has(p.id)?'selected':''}"><input type="checkbox" data-favorite="${p.id}" ${has(p.id)?'checked':''}><span aria-hidden="true">${has(p.id)?'★':'☆'}</span><span>Favorit</span><span class="sr-only">: ${esc(p.name)}</span></label>`;
-  const time=stamp=>stamp?new Intl.DateTimeFormat('de-CH',{hour:'2-digit',minute:'2-digit'}).format(new Date(stamp)):'';
   function status(s){
-    if(!s.configured)return 'Auf diesem Gerät gespeichert · gemeinsamer Speicher noch nicht verbunden';
-    if(s.phase==='locked')return 'Gemeinsame Favoriten · bitte mit eurem Reisecode verbinden';
-    if(s.pending)return `${s.pending} Änderung${s.pending===1?'':'en'} wartet auf den Geräteabgleich`;
-    if(s.phase==='offline')return s.message||'Offline · letzter gemeinsamer Stand';
-    if(s.busy)return 'Gemeinsamen Stand abgleichen …';
-    return `Für beide Geräte gespeichert${s.state.updatedAt?' · '+time(s.state.updatedAt):''}`;
+    if(s.phase==='locked')return '';
+    if(s.pending)return 'Wird gespeichert, sobald die Verbindung steht.';
+    if(s.phase==='offline')return 'Offline · letzter gespeicherter Stand';
+    if(s.busy)return 'Wird geladen …';
+    return s.configured?'Gespeichert':'Auf diesem Gerät gespeichert';
   }
-  const canPlan=s=>!s.busy&&!s.pending&&(!s.configured||s.authenticated&&s.phase!=='offline');
-  function notice(text){$('#favorite-notice').textContent=text;}
+  const canPlan=s=>!s.busy&&!s.pending&&(!s.configured||s.authenticated&&s.phase==='synced');
+  function notice(text){const el=$('#toast');el.textContent=text;el.hidden=false;clearTimeout(notice.timer);notice.timer=setTimeout(()=>el.hidden=true,5000);}
   function render(s){
-    const planned=new Set(TRIP.days.flatMap(d=>d.events.filter(e=>e.status!=='pause').map(e=>e.place))),count=s.state.favorites.length;
-    const countPlanned=s.state.favorites.filter(id=>planned.has(id)).length;
-    const login=s.configured&&!s.authenticated?'<button class="secondary" data-open-sync>Reisecode eingeben</button>':'';
-    $('#favorite-tools').innerHTML=`<div class="favorites-heading"><div><p class="eyebrow">EURE MERKLISTE</p><h3>${count} Favoriten <span>· ${countPlanned} im Tagesplan</span></h3></div><button class="secondary" data-only-favorites>Nur Favoriten anzeigen</button></div><p>Häkchen setzen und gemeinsam auswählen. Bereits reservierte Erlebnisse bleiben fest. Ein Favorit ist noch keine Buchung.</p><div class="sync-line" role="status"><span class="sync-dot ${s.phase}"></span><span>${esc(status(s))}</span>${login}${s.configured&&s.authenticated?'<button class="text-button" data-sync-refresh>Abgleichen ↻</button>':''}</div><button class="primary plan-match" data-plan-preview ${canPlan(s)?'':'disabled'}>Tagesprogramm mit Favoriten abgleichen</button>`;
-    $('#plan-tools').innerHTML=`<div><strong>${s.state.activePlan?'Programm mit euren Favoriten':'Euer ursprüngliches Programm'}</strong><p>${count} Favoriten · ${countPlanned} eingeplant. Änderungen erst nach dem Abgleich.</p></div><div class="plan-tool-actions"><button class="primary" data-plan-preview ${canPlan(s)?'':'disabled'}>Tagesprogramm mit Favoriten abgleichen</button><button class="secondary" data-plan-undo ${canPlan(s)&&s.state.history.length?'':'disabled'}>↶ Zurück zum vorherigen Programm</button></div>${login}<p class="plan-sync" role="status">${esc(status(s))}</p>`;
-    $('#sync-message').textContent=s.message;
-    $('#sync-submit').disabled=s.busy;
+    const count=s.state.favorites.length;
+    $('#favorite-tools').innerHTML=`<div class="favorites-heading"><button class="favorite-summary" data-only-favorites><span aria-hidden="true">★</span> ${count} Favoriten</button><button class="text-button" data-plan-preview ${canPlan(s)?'':'disabled'}>Tagesplan anpassen ↗</button></div><div class="favorite-footer"><span class="sync-line" role="status">${esc(status(s))}</span>${s.configured&&!s.authenticated?'<button class="text-button" data-open-sync>Verbinden</button>':''}${s.phase==='offline'?'<button class="text-button" data-sync-refresh>Erneut versuchen</button>':''}${s.state.history.length?`<button class="text-button" data-plan-undo ${canPlan(s)?'':'disabled'}>↶ Vorheriger Plan</button>`:''}</div>`;
   }
   function changed(s){
     const content=JSON.stringify({favorites:s.state.favorites,plan:s.state.activePlan});
@@ -41,12 +34,12 @@
     render(s);
     if($('#program-dialog').open&&previewRevision!==s.state.revision){
       $('#program-accept').disabled=true;
-      $('#program-message').textContent='Die Favoriten oder das Programm wurden inzwischen geändert. Bitte zurückgehen und den Abgleich neu öffnen.';
+      $('#program-message').textContent='Die Auswahl hat sich geändert. Bitte die Vorschau neu öffnen.';
     }
   }
   function openLogin(){if(!$('#sync-dialog').open)$('#sync-dialog').showModal();$('#travel-code').focus();}
   function showPreview(){
-    const current=store.get();if(current.configured&&!current.authenticated){openLogin();return;}
+    const current=store.get();if(!canPlan(current))return;
     preview=TripPlanner.build(baseline,current.state.favorites);previewRevision=current.state.revision;
     const diff=preview.days.map(d=>{
       const old=TRIP.days.find(x=>x.id===d.id);
@@ -55,19 +48,19 @@
       return {day:d,added,removed};
     }).filter(x=>x.added.length||x.removed.length);
     const names=ids=>ids.map(id=>esc(place.get(id)?.name||id)).join(' · ');
-    $('#program-preview').innerHTML=`<p class="eyebrow">IN RUHE AUSWÄHLEN</p><h2>So passen eure Favoriten.</h2><p class="preview-lead">${preview.planned.length} von ${current.state.favorites.length} Favoriten im Programm. Gebuchte Termine bleiben geschützt. Vorschläge ersetzen bestehende Punkte und werden nicht einfach angehängt.</p>${diff.length?diff.map(x=>`<article class="plan-diff"><h3>${esc(x.day.short)}</h3><p class="diff-label">Der Vorschlag</p><ul>${x.added.map(e=>`<li><strong>${esc(e.time)}${e.end?'–'+esc(e.end):''}</strong> ${esc(e.title)}</li>`).join('')}</ul><details><summary>Was dafür weicht oder angepasst wird</summary><ul>${x.removed.map(e=>`<li>${esc(e.time)} · ${esc(e.title)}</li>`).join('')}</ul></details></article>`).join(''):'<p class="unchanged-plan">Euer aktuelles Programm passt bereits zu dieser Auswahl. Es ist keine Änderung nötig.</p>'}<details class="kept-favorites"><summary>Bereits eingeplante Favoriten bleiben erhalten</summary><p>${names(preview.kept)||'Keine weiteren bestehenden Favoriten.'}</p></details>${preview.unplanned.length?`<section class="unplanned-favorites"><h3>Favoriten ohne festen Termin</h3><p>Bewusst frei gelassen, damit die Reise entspannt bleibt.</p>${preview.unplanned.map(item=>`<article><strong>${esc(place.get(item.id).name)}</strong><p>${esc(item.reason)}</p></article>`).join('')}</section>`:''}<p class="preview-fixed">Flüge, Ankunftstransfer, Kaffee, Yacht und reservierte Dinnerfahrt bleiben unverändert. Der bekannte Kaffee/Yacht-Konflikt und die offene Dinnerabholzeit müssen weiterhin geklärt werden.</p>`;
+    $('#program-preview').innerHTML=`<p class="eyebrow">IN RUHE AUSWÄHLEN</p><h2>So passen eure Favoriten.</h2><p class="preview-lead">${preview.planned.length} von ${current.state.favorites.length} Favoriten im Programm. Gebuchte Termine bleiben geschützt. Pausen und Wege sind berücksichtigt.</p>${diff.length?diff.map(x=>`<article class="plan-diff"><h3>${esc(x.day.short)}</h3><p class="diff-label">Der Vorschlag</p><ul>${x.added.map(e=>`<li><strong>${esc(e.time)}${e.end?'–'+esc(e.end):''}</strong> ${esc(e.title)}</li>`).join('')}</ul><details><summary>Was dafür weicht oder angepasst wird</summary><ul>${x.removed.map(e=>`<li>${esc(e.time)} · ${esc(e.title)}</li>`).join('')}</ul></details></article>`).join(''):'<p class="unchanged-plan">Euer aktuelles Programm passt bereits zu dieser Auswahl. Es ist keine Änderung nötig.</p>'}<details class="kept-favorites"><summary>Bereits eingeplante Favoriten bleiben erhalten</summary><p>${names(preview.kept)||'Keine weiteren bestehenden Favoriten.'}</p></details>${preview.unplanned.length?`<section class="unplanned-favorites"><h3>Favoriten ohne festen Termin</h3><p>Bewusst frei gelassen, damit die Reise entspannt bleibt.</p>${preview.unplanned.map(item=>`<article><strong>${esc(place.get(item.id).name)}</strong><p>${esc(item.reason)}</p></article>`).join('')}</section>`:''}<p class="preview-fixed">Flüge, Ankunftstransfer, Kaffee, Yacht und reservierte Dinnerfahrt bleiben unverändert. Der bekannte Kaffee/Yacht-Konflikt und die offene Dinnerabholzeit müssen weiterhin geklärt werden.</p>`;
     $('#program-message').textContent='';$('#program-accept').disabled=!diff.length||!canPlan(current);
     $('#program-dialog').showModal();
   }
   async function apply(){
     $('#program-accept').disabled=true;
-    try{await store.apply(previewRevision);$('#program-dialog').close();notice('Programm angepasst. Mit „Zurück“ stellt ihr den vorherigen Stand wieder her.');TripApp.showPlan();}
-    catch(error){$('#program-message').textContent=error.message==='conflict'?'Der gemeinsame Stand wurde inzwischen geändert. Bitte zurück und erneut abgleichen.':'Speichern gerade nicht möglich. Das bisherige Programm bleibt sichtbar; Verbindung prüfen und erneut abgleichen.';await store.refresh();}
+    try{await store.apply(previewRevision);$('#program-dialog').close();notice('Tagesplan angepasst. Rückgängig unter „Entdecken“.');TripApp.showPlan();}
+    catch(error){$('#program-message').textContent=error.message==='conflict'?'Die Auswahl wurde inzwischen geändert. Bitte die Vorschau neu öffnen.':'Speichern gerade nicht möglich. Das bisherige Programm bleibt sichtbar; Verbindung prüfen und erneut abgleichen.';await store.refresh();}
   }
   async function undo(){
     const revision=store.get().state.planRevision;
     try{await store.undo(revision);notice('Vorheriges Programm wiederhergestellt. Eure Favoriten bleiben angekreuzt.');}
-    catch(error){notice(error.message==='conflict'?'Das Programm wurde auf dem anderen Gerät geändert. Zuerst den aktuellen Stand laden.':'Zurücksetzen gerade nicht möglich. Bitte die Verbindung prüfen.');await store.refresh();}
+    catch(error){notice(error.message==='conflict'?'Das Programm hat sich inzwischen geändert. Bitte erneut versuchen.':'Zurücksetzen gerade nicht möglich. Bitte die Verbindung prüfen.');await store.refresh();}
   }
   window.TripFavorites={has,isBooked,control};
   document.addEventListener('change',async event=>{
@@ -82,7 +75,7 @@
     if(b.hasAttribute('data-plan-preview'))showPreview();
     if(b.hasAttribute('data-plan-undo'))undo();
   });
-  $('#sync-form').addEventListener('submit',async event=>{event.preventDefault();const input=$('#travel-code');const code=input.value;input.value='';try{await store.login(code);$('#sync-dialog').close();notice('Gemeinsame Favoriten verbunden. Auf dem zweiten Gerät denselben Reisecode eingeben.');}catch{input.focus();}});
+  $('#sync-form').addEventListener('submit',async event=>{event.preventDefault();const input=$('#travel-code'),code=input.value;input.value='';$('#sync-submit').disabled=true;try{await store.login(code);$('#sync-dialog').close();}catch{$('#sync-message').textContent=store.get().message;input.focus();}finally{$('#sync-submit').disabled=false;}});
   $('#sync-close').addEventListener('click',()=>$('#sync-dialog').close());
   $('#program-back').addEventListener('click',()=>$('#program-dialog').close());
   $('#program-accept').addEventListener('click',apply);
