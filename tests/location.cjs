@@ -1,0 +1,15 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+function setup(){
+ const calls=[],states=[],layers=[],events={};let success,error,tick=1000000;
+ const geo={watchPosition(s,e,options){success=s;error=e;calls.push(['watch',options]);return 42},clearWatch(id){calls.push(['clear',id])}};
+ const layer=()=>({addTo(){layers.push(this);return this},bindTooltip(){return this},setLatLng(p){this.position=p;return this},setRadius(r){this.radius=r;return this}});
+ const map={on(event,cb){events[event]=cb},getZoom(){return 13},setView(p,z){calls.push(['center',p,z])},removeLayer(l){calls.push(['remove',l])}};
+ const scope={window:{},navigator:{geolocation:geo},L:{circle:layer,circleMarker:layer},Date};vm.createContext(scope);vm.runInContext(fs.readFileSync(path.join(__dirname,'../dist/location.js'),'utf8'),scope);
+ const controller=scope.window.createTripLocation({map,geolocation:geo,onState:s=>states.push(s),now:()=>tick});
+ return{controller,calls,states,layers,events,fix(lat=41,lng=29){success({coords:{latitude:lat,longitude:lng,accuracy:12},timestamp:tick})},fail(code){error({code})},advance(ms){tick+=ms}};
+}
+test('starts only on request and uses accurate GPS with bounded age',()=>{const s=setup();assert.equal(s.calls.length,0);s.controller.start();s.controller.start();assert.equal(s.calls.length,1);assert.equal(s.calls[0][1].enableHighAccuracy,true);s.fix();assert.equal(s.layers.length,2);assert.equal(s.controller.distanceTo([41,29]),0);s.advance(121000);assert.equal(s.controller.distanceTo([41,29]),null)});
+test('dragging leaves GPS marker updating without pulling the map back',()=>{const s=setup();s.controller.start();s.fix();s.events.dragstart();const n=s.calls.filter(x=>x[0]==='center').length;s.fix(41.1);assert.equal(s.calls.filter(x=>x[0]==='center').length,n);assert.equal(s.layers[1].position[0],41.1);s.controller.center();assert.equal(s.calls.filter(x=>x[0]==='center').length,n+1)});
+test('stop removes location and ignores late callbacks',()=>{const s=setup();s.controller.start();s.fix();s.controller.stop();assert.equal(s.controller.active,false);assert.equal(s.calls.filter(x=>x[0]==='remove').length,2);const n=s.states.length;s.fix();assert.equal(s.states.length,n);assert.equal(s.controller.distanceTo([41,29]),null)});
+test('permission refusal permits retry and background pause clears watch',()=>{const s=setup();s.controller.start();s.fail(1);assert.equal(s.controller.active,false);assert.equal(s.states.at(-1).kind,'error');s.controller.start();s.fix();s.controller.pause();assert.equal(s.controller.active,false);assert(s.calls.some(c=>c[0]==='clear'&&c[1]===42));assert.equal(s.states.at(-1).kind,'paused')});
+test('unavailable and timeout errors are visible without fabricating fixes',()=>{const s=setup();s.controller.start();s.fail(2);assert.equal(s.states.at(-1).kind,'error');assert.equal(s.controller.distanceTo([41,29]),null);s.fail(3);assert.equal(s.controller.following,false)});

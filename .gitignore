@@ -3,3 +3,6 @@ node_modules/
 tmp/
 .env*
 !.env.example
+__pycache__/
+*.pyc
+dist/__qa.html

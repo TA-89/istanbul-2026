@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-09-21T11:35:48.428028+00:00",
+  "sourceName": "Flughafen Zürich & FlightStats (Cirium)",
+  "sourceUrl": "https://www.flughafen-zuerich.ch/en/passengers/fly/flightinformation/departures",
+  "coverage": {
+    "from": "2026-09-21",
+    "to": "2026-09-25"
+  },
+  "flights": [
+    {
+      "id": "outbound",
+      "number": "TK1208",
+      "date": "2026-10-03",
+      "direction": "D",
+      "routeField": "PDS",
+      "checkedAt": "2026-09-21T11:35:48.428028+00:00",
+      "available": false,
+      "state": "not-published",
+      "tracker": {
+        "available": false,
+        "state": "not-published",
+        "checkedAt": "2026-09-21T11:35:48.428028+00:00",
+        "sourceUrl": "https://www.flightstats.com/v2/flight-tracker/TK/1208?year=2026&month=10&date=3"
+      }
+    },
+    {
+      "id": "return",
+      "number": "TK1207",
+      "date": "2026-10-07",
+      "direction": "A",
+      "routeField": "POR",
+      "checkedAt": "2026-09-21T11:35:48.428028+00:00",
+      "available": false,
+      "state": "not-published",
+      "tracker": {
+        "available": false,
+        "state": "not-published",
+        "checkedAt": "2026-09-21T11:35:48.428028+00:00",
+        "sourceUrl": "https://www.flightstats.com/v2/flight-tracker/TK/1207?year=2026&month=10&date=7"
+      }
+    }
+  ]
+}

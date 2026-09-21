@@ -3,6 +3,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17,47 * 28-30 9 *'
+    - cron: '17,47 * 1-8 10 *'
 permissions:
   contents: read
   pages: write
@@ -11,13 +14,35 @@ concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
+  window:
+    runs-on: ubuntu-latest
+    outputs:
+      active: ${{ steps.date.outputs.active }}
+    steps:
+      - id: date
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime, timezone
+          today = datetime.now(timezone.utc).date().isoformat()
+          active = os.environ['EVENT_NAME'] != 'schedule' or '2026-09-28' <= today <= '2026-10-08'
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('active=' + str(active).lower() + '\n')
+          PY
   deploy:
+    needs: window
+    if: needs.window.outputs.active == 'true'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Datumsgenauer Flugabgleich mit Flughafen Zürich und FlightStats
+        continue-on-error: true
+        run: python scripts/update_flights.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
