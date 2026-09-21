@@ -1,12 +1,18 @@
 # Istanbulreise 03.10-07.10.2026
 
-Mobile, statische Webapp für den 3.–7. Oktober 2026. Alle auszuliefernden Dateien liegen in `dist/`. Kein Build, kein API-Schlüssel und kein Backend nötig.
+Mobile Webapp für den 3.–7. Oktober 2026. Alle auszuliefernden Dateien liegen in `dist/`; die Hauptseite läuft statisch auf GitHub Pages. Gemeinsame Favoriten nutzen einen separaten Supabase-Speicher mit einem öffentlichen Verbindungsschlüssel.
 
 Webapp: **https://ta-89.github.io/istanbul-2026/**
 
 Für Smartphones optimiert: feste Navigation am unteren Bildschirmrand, beim Scrollen sichtbare Tagesauswahl, mindestens 44 px hohe Aktionsflächen und kompakte Karten. Auf sehr schmalen Geräten lässt sich die Tagesauswahl seitlich wischen.
 
 ## GPS, Fotos und Flugabgleich
+
+- **Favoriten:** Unter „Entdecken“ lassen sich ungebuchte Orte ankreuzen; auf der Karte gibt es den Filter „Favoriten“. Die neun vom Nutzer genannten Startfavoriten sind vorausgewählt. Bereits reservierte Erlebnisse erhalten kein Favoriten-Häkchen.
+- **Programmabgleich:** „Tagesprogramm mit Favoriten abgleichen“ zeigt zuerst eine Vorschau mit ersetzten Punkten und bewusst ungeplanten Alternativen. Erst „Programm übernehmen“ ändert den Plan. „Zurück zum vorherigen Programm“ stellt den vorherigen Stand wieder her; die Favoriten bleiben angekreuzt. Bis zu zehn Stände sind verfügbar. Bei der Startauswahl passen acht Favoriten hinein; die zusätzliche Sunset-Fahrt bleibt eine Alternative.
+- **Gemeinsamer Reisecode:** Bei eingerichteter Supabase-Verbindung gelten Favoriten, Plan und Rückgängig-Funktion für beide Geräte. Änderungen werden beim Öffnen, beim Zurückkehren und alle 20 Sekunden abgeglichen. Offline-Häkchen warten sichtbar auf Übertragung; Planübernahme und Zurücksetzen benötigen die Verbindung. Ohne Verbindungskonfiguration ist der Modus ausdrücklich lokal. Einrichtung und Datenmodell: `supabase/README.md`.
+
+Der gemeinsame Speicher ist im Projekt `istanbul-reise` eingerichtet. Die echte API und zwei Browser-Sitzungen mit voneinander getrenntem lokalen Speicher wurden getestet. Ein täglicher Verbindungstest vom 21.09. bis 08.10.2026 prüft die Erreichbarkeit, ohne Favoriten oder Zugangsdaten zu lesen; danach stellt das Skript seine Netzabfragen ein. Supabase-Free-Projekte können bei längerer Inaktivität pausieren; die Webseite zeigt Verbindungsfehler und den zuletzt geladenen Stand ausdrücklich an.
 
 - **GPS:** „Mein Standort“ zeigt den Gerätestandort mit Genauigkeitskreis und aktualisiert ihn über `watchPosition`. Browser-Freigabe erforderlich. Verschieben der Karte beendet nur das automatische Zentrieren. „Aus“ entfernt den Punkt und beendet die Abfrage. Im Hintergrund pausiert die Ortung. Keine Speicherung oder Übertragung der Koordinaten durch die App; die beim Zentrieren sichtbaren Kartenkacheln werden von OpenStreetMap geladen. Entfernungen sind Luftlinie.
 - **Fotos:** Alle 95 E-Pass-Attraktionen enthalten ein Originalbild von der jeweiligen E-Pass-Seite mit Quellenlink. Bilder werden direkt vom Anbieter und erst bei Bedarf geladen. Euer bereitgestelltes gemeinsames Foto liegt lokal in `dist/assets/wir-zwei.jpeg`.
@@ -37,6 +43,10 @@ Alle lokalen App- und Asset-URLs sind relativ; die App funktioniert auch unter e
 - `dist/modern.css`: Bildkarten, Flugkarten und aktueller mobiler Feinschliff.
 - `dist/photos.js`: Bildquellen aller E-Pass-Attraktionen.
 - `dist/location.js`: GPS-Anzeige; `dist/flights.js`: Flugdarstellung.
+- `dist/planner.js`: recherchierte Alternativen und Schutz bestehender Favoriten/Buchungen.
+- `dist/shared-state.js`: gemeinsame Daten, Einzeländerungen, Konfliktprüfung und Offline-Warteschlange.
+- `dist/favorites.js` / `dist/favorites.css`: Favoriten, Programmvorschau und Zurück-Funktion.
+- `dist/sync-config.js`: ausschliesslich öffentliche Verbindungsdaten; niemals Reisecode oder erhöhte API-Schlüssel.
 - `dist/sw.js`: Offline-Cache. Bei Inhaltsänderungen die Versionsnummer in `CACHE` erhöhen.
 
 ## Noch vor der Reise klären
@@ -54,6 +64,6 @@ Programm, eigenes Foto und Details sind nach dem ersten vollständigen Laden off
 
 ## Prüfungen
 
-`node tests/location.cjs`, `node tests/flights-ui.cjs` und `python -m unittest discover -s tests -p 'test_*.py'` prüfen Ortungszustände, verspätete GPS-Rückmeldungen, exakte Flugzuordnung, Quellenpriorität, Zeitzonen und veraltete Flugstände. Zusätzlich wurden Layout und Bedienung bei 320/390 px im Browser kontrolliert. Die tatsächliche GPS-Genauigkeit hängt vom Handy und Empfang ab.
+`node tests/location.cjs`, `node tests/flights-ui.cjs` und `python -m unittest discover -s tests -p 'test_*.py'` prüfen Ortungszustände, verspätete GPS-Rückmeldungen, exakte Flugzuordnung, Quellenpriorität, Zeitzonen und veraltete Flugstände. `node tests/planner.cjs` kontrolliert Favoritenzuordnung, den unveränderten Buchungsbestand und Planungsgrenzen. `node tests/shared-state.cjs` simuliert zwei getrennte Geräte am selben Dienst, konkurrierende Änderungen, Offline-Warteschlange, Anmeldung und Rückgängig-Funktion. Der simulierte Dienst ersetzt keinen Test der echten Supabase-API. Zusätzlich werden Layout und Bedienung bei 320/390 px im Browser kontrolliert. Die tatsächliche GPS-Genauigkeit hängt vom Handy und Empfang ab.
 
 Panoramafoto: Juraj Patekar, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wv_Istanbul_banner.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), im Layout zugeschnitten. Leaflet 1.9.4: BSD-2-Clause; siehe `dist/vendor/LEAFLET-LICENSE.txt`. Karten: © OpenStreetMap-Mitwirkende.
