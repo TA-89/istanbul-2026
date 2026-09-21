@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#103e48"><meta name="description" content="Istanbul vom 3. bis 7. Oktober 2026: unser Reiseprogramm, Buchungen und E-Pass-Orte auf einer Karte.">
+  <title>Istanbul · Unsere Reise</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg"><link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png"><link rel="stylesheet" href="./vendor/leaflet.css"><link rel="stylesheet" href="./style.css">
+  <script defer src="./vendor/leaflet.js"></script><script defer src="./catalog.js"></script><script defer src="./data.js"></script><script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Zum Reiseprogramm</a>
+  <header class="topbar"><a class="brand" href="#plan" aria-label="Istanbul Reiseprogramm"><span class="brand-icon">İ</span><span>istanbul<span class="brand-year"> / 2026</span></span></a><div class="header-meta">3.–7. Oktober <span>·</span> 2 Personen</div><a class="pass-link" href="https://yourepass.com/dashboard" target="_blank" rel="noopener">E-Pass öffnen ↗</a></header>
+  <main id="main">
+    <section class="trip-intro"><div><p class="eyebrow">3.–7. OKTOBER 2026</p><h1>Unser Reiseplan<br><em>für Istanbul.</em></h1><p class="intro-meta">3 volle Tage + Ankunftsabend <span>·</span> Ortszeit Istanbul</p></div><div class="intro-photo" id="intro-photo"></div></section>
+    <div id="open-issues"></div>
+    <nav class="main-nav" aria-label="Ansichten"><button data-view="plan" class="active"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M16 3v4M8 3v4M4 11h16M8 15h3M8 18h6"/></svg><span>Tagesplan</span></button><button data-view="map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15"/></svg><span>Karte</span></button><button data-view="bookings"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m8 12 3 3 5-6"/></svg><span>Buchungen</span></button><button data-view="discover"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m16 8-2 6-6 2 2-6 6-2Z"/></svg><span>Entdecken</span></button><button data-view="info"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v1"/></svg><span>Unterwegs</span></button></nav>
+    <section id="plan-view" class="view"><div id="days" class="day-tabs" aria-label="Reisetag"></div><div class="plan-grid"><div id="itinerary"></div><aside class="plan-aside"><div class="section-heading"><div><p class="eyebrow">DIE STADT VOR EUCH</p><h2>Auf einen Blick</h2></div><button id="map-expand" class="text-button">Grosse Karte ↗</button></div><div id="map-home"><div id="map" role="region" aria-label="Interaktive Karte von Istanbul"></div></div><div id="map-legend" class="map-legend"></div><div id="day-extras"></div></aside></div></section>
+    <section id="map-view" class="view" hidden><div class="section-heading"><div><p class="eyebrow">EUROPA ↔ ASIEN</p><h2>Euer Istanbul auf der Karte</h2></div><button id="map-fit" class="secondary">Auswahl anzeigen</button></div><div id="map-filters" class="filter-row"></div><div id="map-large"></div><div class="map-legend" aria-label="Kartenlegende"></div><div id="map-results" class="map-results"></div></section>
+    <section id="bookings-view" class="view" hidden><div class="section-heading"><div><p class="eyebrow">FESTE ANKER</p><h2>Eure Buchungen</h2></div><span class="muted">Mit Mails & Dashboard abgeglichen</span></div><div id="bookings" class="booking-grid"></div></section>
+    <section id="discover-view" class="view" hidden><div class="section-heading"><div><p class="eyebrow">PLATZ FÜR NEUGIER</p><h2>Mehr Istanbul</h2></div></div><p class="section-description">E-Pass-Angebote in der Stadt und persönliche Tipps. Tages- und Mehrtagestouren sind ausgeblendet. Empfehlungen sind noch nicht reserviert.</p><div class="discover-controls"><label class="search-box"><span>Suchen</span><input id="search" type="search" placeholder="Ort, Viertel oder Erlebnis …"></label><label>Leistung<select id="benefit-filter"><option value="all">Alle Angebote</option><option value="included">Im E-Pass inklusive</option><option value="free">Frei zugänglich</option><option value="discount">Mit Aufpreis</option><option value="tip">Unsere Tipps</option></select></label></div><p id="result-count" class="muted" aria-live="polite"></p><div id="discover" class="discover-grid"></div></section>
+    <section id="info-view" class="view" hidden><div class="section-heading"><div><p class="eyebrow">GUT ZU WISSEN</p><h2>Unterwegs & gut vorbereitet</h2></div></div><div id="info" class="info-grid"></div></section>
+    <footer><span>Istanbul, mit Zeit zum Entdecken.</span><span>Recherchestand 21.09.2026 · <button class="text-button" data-view="info">Quellen & Hinweise</button></span></footer>
+  </main>
+  <dialog id="place-dialog"><button id="close-dialog" aria-label="Details schliessen">×</button><div id="place-detail"></div></dialog>
+  <div id="toast" role="status" hidden></div>
+  <noscript>Für Tagesauswahl und Karte bitte JavaScript aktivieren. Eure Buchungen findet ihr im E-Pass-Dashboard.</noscript>
+</body>
+</html>

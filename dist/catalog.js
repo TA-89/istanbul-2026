@@ -1,0 +1,1893 @@
+window.EPASS_CATALOG = [
+  {
+    "id": "ep0",
+    "name": "Hagia Sophia",
+    "originalName": "Hagia Sophia Guided Tour with Ticket",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.0077905,
+      28.9776313
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/hagia-sophia-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=18192300220318586547",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "notes": "",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep1",
+    "name": "Basilica Cistern",
+    "originalName": "Basilica Cistern Guided Tour with Ticket",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.0075695,
+      28.9779822
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/basilica-cistern-istanbul",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/basilica-cistern-istanbul",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "notes": "",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep2",
+    "name": "Topkapı-Palast",
+    "originalName": "Topkapi Palace Museum Guided Tour with Ticket",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.0082783,
+      28.9786979
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/topkapi-palace-museum-istanbul",
+    "mapUrl": "https://goo.gl/maps/QvDwK7aeDN8dpQQT8",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "notes": "",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep4",
+    "name": "Dinnerfahrt & türkische Show",
+    "originalName": "Bosphorus Cruise Tour with Dinner and Turkish Shows",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.0359788,
+      28.9946181
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/bosphorus-cruise-with-dinner-and-turkish-shows",
+    "mapUrl": "https://goo.gl/maps/cogagBU1EKabyQX7A",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "notes": "",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep5",
+    "name": "Dolmabahçe-Palast & Harem",
+    "originalName": "Dolmabahce Palace & Harem Ticket with Audio Guide",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.03810970000001,
+      28.9971139
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/dolmabahce-palace-museum-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=2486147983950013089",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "notes": "",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep6",
+    "name": "Bosporusfahrt mit Frühstück",
+    "originalName": "Bosphorus Cruise with Turkish Breakfast",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": null,
+    "source": "https://istanbulepass.com/istanbul-attractions/bosphorus-cruise-with-turkish-breakfast",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/bosphorus-cruise-with-turkish-breakfast",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Den Bosporus am Morgen erleben und dabei türkisch frühstücken.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep7",
+    "name": "Ebru auf Papier",
+    "originalName": "Traditional Ebru Water Marbling Experience",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.0265812,
+      28.9779549
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/ebru-water-marbling-experience-istanbul",
+    "mapUrl": "https://maps.app.goo.gl/UxEw3kgH4Qc3nyRT8",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "notes": "",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep8",
+    "name": "Tanz der Derwische",
+    "originalName": "Whirling Dervishes Show",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.0084451,
+      28.9741962
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/whirling-dervishes-show-istanbul",
+    "mapUrl": "https://goo.gl/maps/1EdjC1cfZKdWdNPj9",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Eine Sema-Vorführung mit den wirbelnden Derwischen erleben.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep9",
+    "name": "Pub Crawl",
+    "originalName": "Pub Crawl / Explore Istanbul Night Life",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.0363551,
+      28.981804099999998
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/pub-crawl-istanbul",
+    "mapUrl": "https://maps.app.goo.gl/tNgditeNtK8aHmas8",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Mit einer Gruppe mehrere Bars und Clubs der Stadt kennenlernen.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep10",
+    "name": "Bosporusfahrt mit spätem Mittagessen",
+    "originalName": "Bosphorus Cruise with Late Lunch",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.03505600981533,
+      28.9932442696555
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/bosphorus-cruise-with-lunch",
+    "mapUrl": "https://maps.app.goo.gl/6gK6nxCY7PfavCEV9",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Eine Bootsfahrt mit einem späten Mittagessen verbinden.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep11",
+    "name": "Museum der Illusionen · Istiklal",
+    "originalName": "Museum Of Illusions Istanbul Istiklal Street",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      41.0292795,
+      28.9748048
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/museum-of-illusions-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=11549795892509477562",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "notes": "",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep12",
+    "name": "Kaffee auf heissem Sand",
+    "originalName": "Traditional Turkish Coffee On Sand Experience",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.0265812,
+      28.9779549
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/turkish-coffee-on-sand-experience-istanbul",
+    "mapUrl": "https://maps.app.goo.gl/UxEw3kgH4Qc3nyRT8",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "notes": "",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep13",
+    "name": "Keramik bemalen",
+    "originalName": "Ceramic Painting Experience In Istanbul",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.0265812,
+      28.9779549
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/ceramic-painting-experience-istanbul",
+    "mapUrl": "https://maps.app.goo.gl/UxEw3kgH4Qc3nyRT8",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Ein eigenes Keramikstück mit Farbe und Mustern gestalten.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep14",
+    "name": "Spiegel bemalen",
+    "originalName": "Mirror Painting Experience In Istanbul",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.0265812,
+      28.9779549
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/mirror-painting-experience-istanbul",
+    "mapUrl": "https://maps.app.goo.gl/UxEw3kgH4Qc3nyRT8",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Einen Spiegel verzieren und ein selbst gestaltetes Andenken mitnehmen.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep15",
+    "name": "Glas bemalen",
+    "originalName": "Stained Glass Painting Experience In Istanbul",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.0265812,
+      28.9779549
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/stained-glass-painting-experience-istanbul",
+    "mapUrl": "https://maps.app.goo.gl/UxEw3kgH4Qc3nyRT8",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Mit Farben auf Glas arbeiten und ein eigenes Stück gestalten.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep16",
+    "name": "Legends of Istanbul · Musical",
+    "originalName": "Legends of Istanbul | A New Musical",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.009148219371745,
+      28.975764475755057
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/legends-of-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=10900686729880455308",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Musik und Bühnenbilder erzählen von den Legenden Istanbuls.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep17",
+    "name": "Çamlıca-Turm",
+    "originalName": "Camlica Tower Observation Deck Entrance",
+    "category": "Aussicht",
+    "benefit": "included",
+    "coords": [
+      41.016397271349376,
+      29.06288027604092
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/camlica-tower-observation-deck",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/camlica-tower-observation-deck",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Von einer hohen Aussichtsplattform über beide Kontinente blicken.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep18",
+    "name": "Leanderturm · Kız Kulesi",
+    "originalName": "Maiden´s Tower Entrance with Audio Guide",
+    "category": "Aussicht",
+    "benefit": "included",
+    "coords": [
+      41.01662397134942,
+      29.007416076040872
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/maidens-tower",
+    "mapUrl": "https://maps.app.goo.gl/y7Axaubw8MTyYm5PA",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Den kleinen Turm im Bosporus besuchen. Für die Bootsfahrt können separate Kosten anfallen.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep19",
+    "name": "Hagia Sophia History Museum",
+    "originalName": "Hagia Sophia History and Experience Museum Entrance",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.0065071,
+      28.97542
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/hagia-sophia-history-museum",
+    "mapUrl": "https://www.google.com/maps?cid=13993958485554474041",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "notes": "",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep20",
+    "name": "Candle & Ghost · Show",
+    "originalName": "Candle & Ghost Illusion & Acrobatics Symphony",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.009148219371745,
+      28.975764475755057
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/candle-ghost-illusion-and-acrobatics-symphony",
+    "mapUrl": "https://www.google.com/maps?cid=10900686729880455308",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Bühnenabend mit Illusionen, Akrobatik und Musik.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep21",
+    "name": "Kaffee-Erlebnis · Sultanahmet",
+    "originalName": "Turkish Coffee Experience on Hot Sand",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.0091133,
+      28.9751612
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/turkish-coffee-experience-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=8768670602951502353",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Kurzes türkisches Kaffee-Erlebnis in Sultanahmet; anderer Standort als euer gebuchter Workshop.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep22",
+    "name": "Nickelodeon Play · Tersane",
+    "originalName": "Nickelodeon Play Theme Park Tersane Istanbul",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      41.03280387943289,
+      28.957560269835376
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/nickelodeon-play-tersane-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=6497470430550192322",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Indoor-Freizeitpark mit Figuren aus dem Nickelodeon-Universum in Tersane.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep23",
+    "name": "Echoes of Istanbul · Show",
+    "originalName": "Echoes Of Istanbul Live Show",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.009148219371745,
+      28.975764475755057
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/echoes-of-istanbul-live-show",
+    "mapUrl": "https://www.google.com/maps?cid=10900686729880455308",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Eine Show aus Akrobatik, Musik und Geschichten der Stadt.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep24",
+    "name": "Osmanisches Kostüm & Fotos",
+    "originalName": "Ottoman Dress-Up & Photo Shoot",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      41.0091442,
+      28.9783394
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/ottoman-costume-rooftop-photo-shoot-in-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=10900686729880455308",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "In osmanische Kostüme schlüpfen und Erinnerungsfotos machen.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep25",
+    "name": "Sunset-Yacht auf dem Bosporus",
+    "originalName": "Sunset Yacht Cruise on Bosphorus 2 Hours",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.0332778,
+      28.993
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/bosphorus-sunset-cruise-on-a-luxury-yacht",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/bosphorus-sunset-cruise-on-a-luxury-yacht",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "notes": "",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep26",
+    "name": "Street-Food-Abendtour",
+    "originalName": "Istanbul Street Food Night Tour – Eat Like A Local",
+    "category": "Erlebnisse",
+    "benefit": "discount",
+    "coords": [
+      41.036633,
+      28.986131999999994
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/istanbul-street-food-night-tour-eat-like-a-local",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/istanbul-street-food-night-tour-eat-like-a-local",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Geführter Abend rund um Streetfood und lokale Geschmäcker.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep28",
+    "name": "Sapphire-Aussichtsplattform",
+    "originalName": "Sapphire Observation Deck Istanbul",
+    "category": "Aussicht",
+    "benefit": "included",
+    "coords": [
+      41.0850841,
+      29.0066473
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/sapphire-observation-deck-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=14797405837107555750",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Panoramablick vom Sapphire-Turm in Levent.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep29",
+    "name": "Yıldız-Palast",
+    "originalName": "Yildiz Palace Skip the Line Ticket",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.0500248,
+      29.0089821
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/yildiz-palace-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=8859493522837785705",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Den späten Sultanspalast in Beşiktaş entdecken.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep30",
+    "name": "Beylerbeyi-Palast",
+    "originalName": "Beylerbeyi Palace Museum Entrance",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.0426689,
+      29.039984
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/beylerbeyi-palace-museum",
+    "mapUrl": "https://www.google.com/maps?cid=12271929390661560074",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Sommerresidenz der Sultane am asiatischen Bosporusufer.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep31",
+    "name": "Gemäldemuseum der Nationalpaläste",
+    "originalName": "National Palaces Painting Museum Entry with Audio Guide",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.03810970000001,
+      28.9971139
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/painting-museum-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=2486147983950013089",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Malerei aus den Sammlungen der Nationalpaläste am Bosporus.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep32",
+    "name": "Sonnenuntergang auf dem Goldenen Horn",
+    "originalName": "Golden Horn & Bosphorus Sunset Cruise",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.007314699999995,
+      28.9786875
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/golden-horn-bosphorus-sunset-cruise",
+    "mapUrl": "https://maps.app.goo.gl/19iaaVB1u6jmuRBa6",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Abendliche Rundfahrt auf dem Goldenen Horn und dem Bosporus.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep33",
+    "name": "Chora · Kariye",
+    "originalName": "Chora Museum Entrance Ticket with Audio Guide",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.031205,
+      28.939188299999994
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/chora-museum-entrance-ticket-with-audio-guide",
+    "mapUrl": "https://www.google.com/maps?cid=8091199758161729036",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "notes": "",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep34",
+    "name": "Miniatürk",
+    "originalName": "Miniaturk Park Museum Ticket",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      41.059481950000006,
+      28.9490721
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/miniaturk-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=3569472745362347804",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Türkische Bauwerke als Miniaturmodelle in einem Park am Goldenen Horn.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep35",
+    "name": "Museum der Palastsammlungen",
+    "originalName": "The Palace Collections Museum",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.04121549999999,
+      29.004110800000003
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/the-palace-collections-museum",
+    "mapUrl": "https://www.google.com/maps?cid=732035708350050981",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Alltags- und Kunstgegenstände aus den osmanischen Palästen.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep36",
+    "name": "Panorama 1453",
+    "originalName": "Panorama 1453 History Museum Entrance",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      41.0182772,
+      28.920391000000002
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/panaroma-1453-history-museum",
+    "mapUrl": "https://www.google.com/maps?cid=6261098896149928134",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Panoramadarstellung der Eroberung Konstantinopels im Jahr 1453.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep37",
+    "name": "Galataturm · Eintritt",
+    "originalName": "Galata Tower Entrance (Discounted)",
+    "category": "Aussicht",
+    "benefit": "discount",
+    "coords": [
+      41.025569,
+      28.974128600000004
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/galata-tower-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=5509819058466009867",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "notes": "",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep38",
+    "name": "Digital Experience Museum",
+    "originalName": "Digital Experience Museum",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      41.0579092,
+      28.9495
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/digital-experience-museum",
+    "mapUrl": "https://www.google.com/maps?cid=17528654277219893815",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Digitale und immersive Ausstellungen nahe Miniatürk.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep39",
+    "name": "Emaar Aquarium",
+    "originalName": "Emaar Aquarium and Underwater Zoo",
+    "category": "Aquarien & Tierparks",
+    "benefit": "included",
+    "coords": [
+      41.002303,
+      29.070806999999995
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/emaar-aquarium-and-underwater-zoo",
+    "mapUrl": "https://www.google.com/maps?cid=604120158465283147",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Unterwasserwelten im Emaar Square auf der asiatischen Seite.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep40",
+    "name": "Lion Park · Tuzla",
+    "originalName": "Lion Park Entrance",
+    "category": "Aquarien & Tierparks",
+    "benefit": "included",
+    "coords": [
+      40.81807169999999,
+      29.317669199999997
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/lion-park-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=11561121638178680634",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Grosskatzenanlage in Tuzla, weit ausserhalb eurer geplanten Stadtviertel.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep41",
+    "name": "Viasea Aquarium & Crocodile Park",
+    "originalName": "Viasea Aquarium & Crocodile Park Entrance",
+    "category": "Aquarien & Tierparks",
+    "benefit": "included",
+    "coords": [
+      40.8182122,
+      29.317318499999995
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/viasea-aquarium-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=18159564449575675561",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aquarium und Krokodilpark bei der Viaport Marina in Tuzla.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep42",
+    "name": "Pirate Island · Freizeitpark",
+    "originalName": "Pirate Island Theme Park Entrance",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      40.818515271377784,
+      29.314452375888564
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/pirate-island-theme-park-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=11015823832612948972",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Fahrgeschäfte bei der Viaport Marina; lange Anfahrt vom Stadtzentrum.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep43",
+    "name": "Galata Mevlevi Lodge",
+    "originalName": "Galata Mevlevi Lodge Museum Entrance",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.028119700000005,
+      28.974464600000005
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/galata-mevlevi-lodge-museum",
+    "mapUrl": "https://www.google.com/maps?cid=6785353038089173832",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Historische Mevlevi-Lodge und Einblicke in die Sufi-Kultur nahe Galata.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep44",
+    "name": "Rumeli-Festung",
+    "originalName": "Rumeli Fortress Museum Entrance",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.0848224,
+      29.0566979
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/rumeli-fortress-museum-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=5068707527669761786",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Die Festungsanlage am Bosporus: laut Anbieter ist wegen Restaurierung nur der Innenhof zugänglich.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep45",
+    "name": "Blaue Moschee & Hippodrom",
+    "originalName": "Blue Mosque Istanbul Guided Tour",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.007076500000004,
+      28.9766885
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/blue-mosque-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=3697073850367904409",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "notes": "",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep46",
+    "name": "Istanbul Aquarium · Florya",
+    "originalName": "Istanbul Aquarium Florya",
+    "category": "Aquarien & Tierparks",
+    "benefit": "included",
+    "coords": [
+      40.965505,
+      28.797951700000002
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/istanbul-aquarium",
+    "mapUrl": "https://www.google.com/maps?cid=16811057261613231243",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Grosses Aquarium in Florya, gut als längere Schlechtwetter-Alternative.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep47",
+    "name": "Archäologisches Museum",
+    "originalName": "Istanbul Archaeological Museum Guided Tour with Ticket",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.01094799999999,
+      28.980147
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/istanbul-archaeological-museum",
+    "mapUrl": "https://www.google.com/maps?cid=12904942816562460713",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Antike Funde und Skulpturen direkt neben dem Topkapı-Palast.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep48",
+    "name": "Private Yacht zum Schwimmen",
+    "originalName": "Private Istanbul Yacht Swimming Tour",
+    "category": "Schiffe & Shows",
+    "benefit": "discount",
+    "coords": [
+      41.0233296,
+      28.968862499999997
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/private-istanbul-yacht-swimming-tour",
+    "mapUrl": "https://www.google.com/maps?cid=4591444172913110562",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Private Yachtfahrt mit Badegelegenheit; kostenpflichtige Zusatzleistung.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen.",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep49",
+    "name": "Private Bosporus-Yacht",
+    "originalName": "Private Istanbul Bosphorus Yacht Cruise",
+    "category": "Schiffe & Shows",
+    "benefit": "discount",
+    "coords": [
+      41.0233296,
+      28.968862499999997
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/private-istanbul-bosphorus-yacht-cruise",
+    "mapUrl": "https://www.google.com/maps?cid=4591444172913110562",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Private Bootsfahrt auf dem Bosporus mit individuellem Rahmen.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen.",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep50",
+    "name": "Rumeli Hammam",
+    "originalName": "Rumeli Hammam Turkish Bath Experience In Istanbul",
+    "category": "Erlebnisse",
+    "benefit": "discount",
+    "coords": [
+      41.00310931974283,
+      28.970079676234917
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/rumeli-hammam-turkish-bath-istanbul",
+    "mapUrl": "https://maps.app.goo.gl/HjuoGcMkSJBRNgc66",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Traditionelles Bad mit verschiedenen kostenpflichtigen Anwendungen.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep51",
+    "name": "Geführte Bosporusfahrt",
+    "originalName": "Guided Bosphorus Cruise Istanbul",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.019465000000004,
+      28.967819799999997
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/bosphorus-tour-live-guidance-istanbul",
+    "mapUrl": "https://maps.app.goo.gl/31ucJaQf3UMz5L5W8",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Bosporusfahrt mit Live-Erklärungen auf Englisch oder Russisch.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep52",
+    "name": "Tastes of Istanbul · Tasting Cinema",
+    "originalName": "Tastes Of Istanbul - Tasting Cinema Experience",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.033572299999996,
+      28.9467689
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/tastes-of-istanbul-tasting-cinema-experience",
+    "mapUrl": "https://www.google.com/maps?cid=11976181676400739664",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Ein Kinoerlebnis, das Geschichten mit Kostproben verbindet.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep53",
+    "name": "Topkapı bei Nacht mit Harem",
+    "originalName": "Topkapi Palace Guided Night Tour With Harem Entrance",
+    "category": "Geschichte & Architektur",
+    "benefit": "discount",
+    "coords": [
+      41.0082743,
+      28.981272799999996
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/topkapi-palace-night-tour",
+    "mapUrl": "https://maps.app.goo.gl/YBc4khUzeT1tgY1J7",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Geführter Topkapı-Besuch am Abend inklusive Harem; separates kostenpflichtiges Angebot.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep54",
+    "name": "Osmanische Kostümfotos · Cankurtaran",
+    "originalName": "Ottoman Costume Photo Experience",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      41.0090388,
+      28.98077719999999
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/ottoman-costume-photo-experience",
+    "mapUrl": "https://maps.app.goo.gl/baYEsDj4WqH5Kcj6A?g_st=ic",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Kostüm-Fotosession in der historischen Altstadt.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep55",
+    "name": "Museum für türkische & islamische Kunst",
+    "originalName": "Turkish and Islamic Arts Museum Tour with Ticket",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.0062276,
+      28.9721452
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/turkish-and-islamic-arts-museum",
+    "mapUrl": "https://www.google.com/maps?cid=18103672058658091412",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Teppiche, Kalligrafie und Kunst im Ibrahim-Pascha-Palast am Hippodrom.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep56",
+    "name": "Museum für Wissenschafts- & Technikgeschichte",
+    "originalName": "Museum Of The History Of Science and Technology in Islam Entrance",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.013421799999996,
+      28.97897919999999
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/istanbul-museum-of-the-history-of-science-and-technology-in-islam",
+    "mapUrl": "https://www.google.com/maps?cid=4572950090219318660",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Historische wissenschaftliche Instrumente und Erfindungen im Gülhane-Park.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep57",
+    "name": "Emaar SkyView",
+    "originalName": "Emaar Skyview Experience",
+    "category": "Aussicht",
+    "benefit": "discount",
+    "coords": [
+      41.00329,
+      29.071473499999996
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/emaar-skyview-experience",
+    "mapUrl": "https://maps.app.goo.gl/o3Cn76ZoNnbC1qxD7",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Aussichtsplattform und Glasboden im Emaar Square.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep58",
+    "name": "Sultan Süleyman Hammam",
+    "originalName": "Sultan Suleyman Hammam (Turkish Bath)",
+    "category": "Erlebnisse",
+    "benefit": "discount",
+    "coords": null,
+    "source": "https://istanbulepass.com/istanbul-attractions/sultan-suleyman-hammam",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/sultan-suleyman-hammam",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Hammam-Erlebnis an einem der angebotenen Standorte; Paket und Adresse bei Buchung wählen.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep59",
+    "name": "Cocktail-Workshop mit Galatablick",
+    "originalName": "Cocktail Workshop With Galata Tower View",
+    "category": "Erlebnisse",
+    "benefit": "discount",
+    "coords": [
+      41.0245657,
+      28.9722264
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/cocktail-workshop-with-galata-tower-view",
+    "mapUrl": "https://www.google.com/maps?cid=14707747398038895371",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Cocktails mixen mit Blick auf den Galataturm.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep60",
+    "name": "Goldenes Horn & Bosporusfahrt",
+    "originalName": "Golden Horn & Bosphorus Cruise",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.007314699999995,
+      28.9786875
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/golden-horn-and-bosphorus-cruise",
+    "mapUrl": "https://www.google.com/maps?cid=16689654433592032052",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Rundfahrt auf dem Goldenen Horn und dem Bosporus.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep62",
+    "name": "Kochen mit Local Moms",
+    "originalName": "Turkish Cuisine Cooking Class with Local Moms",
+    "category": "Erlebnisse",
+    "benefit": "discount",
+    "coords": [
+      41.013901,
+      29.035986
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/turkish-cuisine-cooking-class",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/turkish-cuisine-cooking-class",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Mit lokalen Gastgeberinnen türkische Gerichte zubereiten.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep63",
+    "name": "Küçüksu-Pavillon",
+    "originalName": "Kucuksu Pavilion Entrance",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.0784181,
+      29.0648789
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/kucuksu-pavillions",
+    "mapUrl": "https://www.google.com/maps?cid=16011191330573342023",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Ein kleiner osmanischer Pavillon am asiatischen Bosporusufer.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep64",
+    "name": "Segway-Tour durch die Altstadt",
+    "originalName": "Guided Segway Tour of Istanbul",
+    "category": "Erlebnisse",
+    "benefit": "discount",
+    "coords": [
+      41.0097145,
+      28.9762463
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/istanbul-segway-tours",
+    "mapUrl": "https://maps.app.goo.gl/TXTn4MF5CK7vZCzm6",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Geführte Segway-Runde in der historischen Altstadt.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep65",
+    "name": "Şerefiye-Zisterne",
+    "originalName": "Serefiye Cistern Entrance Ticket",
+    "category": "Geschichte & Architektur",
+    "benefit": "discount",
+    "coords": [
+      41.0073901,
+      28.9723842
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/serefiye-cistern-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=5396055099741273708",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Historische Zisterne unter den Gassen der Altstadt; separates Eintrittsangebot.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep67",
+    "name": "Hodjapasha · Derwische",
+    "originalName": "Hodjapasha Whirling Dervishes Show",
+    "category": "Schiffe & Shows",
+    "benefit": "discount",
+    "coords": [
+      41.014106,
+      28.975608400000002
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/hodjapasha-whirling-dervishes-show",
+    "mapUrl": "https://www.google.com/maps?cid=17292295133982162577",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Derwisch-Zeremonie im historischen Hodjapasha-Kulturzentrum.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep68",
+    "name": "Rhythm of the Dance",
+    "originalName": "Rhythm of the Dance Show Ticket",
+    "category": "Schiffe & Shows",
+    "benefit": "discount",
+    "coords": [
+      41.014106,
+      28.975608400000002
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/rhytm-of-the-dance-show-ticket",
+    "mapUrl": "https://www.google.com/maps?cid=17292295133982162577",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Bühnenshow mit türkischen Tanztraditionen im Hodjapasha.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep69",
+    "name": "Hop-on-Hop-off-Bus",
+    "originalName": "Hop on Hop Off Istanbul Bus Tour",
+    "category": "Vorübergehend geschlossen",
+    "benefit": "discount",
+    "coords": [
+      41.0077905,
+      28.9776313
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/hop-on-hop-off-bus",
+    "mapUrl": "https://www.google.com/maps?cid=18192300220318586547",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Stadtrundfahrt mit Ein- und Ausstieg an verschiedenen Haltestellen. Derzeit nicht einplanen.",
+    "notes": "Im aktuellen E-Pass-Katalog als vorübergehend geschlossen aufgeführt. Nicht fest einplanen.",
+    "mode": "Details beim Anbieter",
+    "closed": true,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep70",
+    "name": "Töpfer-Erlebnis",
+    "originalName": "Discover the Pottery Making Experience",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.0105298,
+      28.9752395
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/pottery-making-experience",
+    "mapUrl": "https://www.google.com/maps?cid=2505931731818483380",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Traditionelle Töpfertechniken kennenlernen und selbst ausprobieren.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep71",
+    "name": "4D SkyRide · Sapphire",
+    "originalName": "Istanbul 4D SkyRide Simulation",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.085082899999996,
+      29.0064544
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/istanbul-4d-skyride-simulation",
+    "mapUrl": "https://www.google.com/maps?cid=15324886174880098389",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Virtueller Flug über Istanbul im Sapphire-Turm.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep72",
+    "name": "Private Yacht · 2 Stunden",
+    "originalName": "Private Bosphorus Yacht Tour (2 Hours)",
+    "category": "Schiffe & Shows",
+    "benefit": "discount",
+    "coords": null,
+    "source": "https://istanbulepass.com/istanbul-attractions/private-bosphorus-yacht-tour",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/private-bosphorus-yacht-tour",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Zweistündige private Yachtfahrt. Anleger wird bei Buchung vereinbart.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep73",
+    "name": "Vialand mit Shuttle",
+    "originalName": "Vialand Theme Park with Shuttle",
+    "category": "Museen & Freizeit",
+    "benefit": "discount",
+    "coords": [
+      41.071898450000006,
+      28.9234567
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/vialand-theme-park-entrance",
+    "mapUrl": "https://www.google.com/maps?cid=16903514547008850129",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Grosser Freizeitpark mit Fahrgeschäften; würde einen erheblichen Teil eures Stadttags beanspruchen.",
+    "notes": "Nur eine Ermässigung, kein kostenloser Eintritt. Aktuellen E-Pass-Preis vor einer Reservierung prüfen. Vorab im persönlichen Dashboard reservieren; Verfügbarkeit prüfen.",
+    "mode": "Reservierung nötig",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep74",
+    "name": "Tulpengeschichte & Fliesenausstellung",
+    "originalName": "Dance of Tulip with Tile Exhibition",
+    "category": "Erlebnisse",
+    "benefit": "included",
+    "coords": [
+      41.106844699999996,
+      29.0553812
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/exhibition-in-tulip-museum",
+    "mapUrl": "https://www.google.com/maps?cid=13712710627024171268",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Ausstellung zu Tulpenmotiven und Fliesenkunst in Emirgan.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep75",
+    "name": "Jüdisches Erbe · Audioguide",
+    "originalName": "Jewish Heritage in Istanbul Audio Tour",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.027068,
+      28.972562999999997
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/jewish-heritage-istanbul",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/jewish-heritage-istanbul",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Jüdische Geschichte der Stadt mit Audioguide entdecken; Zutrittsregeln einzelner Gebäude separat prüfen.",
+    "notes": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "mode": "Audioguide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep76",
+    "name": "Süleymaniye-Moschee",
+    "originalName": "Suleymaniye Mosque Audio Guide Tour",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.016047,
+      28.9639711
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/suleymaniye-mosque-tour",
+    "mapUrl": "https://www.google.com/maps?cid=10001638270571106285",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "notes": "",
+    "mode": "Audioguide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep77",
+    "name": "Türkische Welt · Kulturpark Topkapı",
+    "originalName": "Topkapi Turkish World Audio Guide Tour",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.0220125,
+      28.921349700000004
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/turkish-world-tour",
+    "mapUrl": "https://www.google.com/maps?cid=4872698846602645232",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Kulturpark im Stadtteil Topkapı – nicht der Topkapı-Sultanspalast in Sultanahmet.",
+    "notes": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep78",
+    "name": "Balat-Spielzeugmuseum",
+    "originalName": "Balat Toy Museum Istanbul Entrance",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      41.0276931,
+      28.956514799999994
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/istanbul-toy-museum-balat",
+    "mapUrl": "https://www.google.com/maps?cid=14885792477917048029",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Spielzeug aus verschiedenen Zeiten in Balat.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep79",
+    "name": "Robotermuseum",
+    "originalName": "Robot Museum Istanbul",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      40.9823288,
+      28.728706
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/robot-museum-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=9783308554408418369",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Robotik-Ausstellung im Westen Istanbuls; zusätzliche Anfahrt nötig.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep82",
+    "name": "Antik Cisterna",
+    "originalName": "Antik Cisterna Entrance",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.008718699999996,
+      28.9628486
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/antik-cisterna",
+    "mapUrl": "https://www.google.com/maps?cid=2927653879354293391",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Eine historische Zisterne in der Nähe von Beyazıt entdecken.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep83",
+    "name": "Pierre-Loti-Hügel",
+    "originalName": "Pierre Loti Hill Audio Tour",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.054328399999996,
+      28.9334084
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/pierre-loti-hill",
+    "mapUrl": "https://www.google.com/maps?cid=17558522871680842020",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "notes": "",
+    "mode": "Audioguide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep84",
+    "name": "Eyüp-Sultan-Moschee",
+    "originalName": "Eyup Sultan Mosque Audio Guide Tour",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.0479225,
+      28.9338509
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/eyup-sultan-mosque-tour",
+    "mapUrl": "https://www.google.com/maps?cid=838694266900012893",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Bedeutende Moschee am Goldenen Horn nahe Pierre Loti.",
+    "notes": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "mode": "Audioguide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep85",
+    "name": "Hippodrom",
+    "originalName": "Hippodrome of Constantinople Tour",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.007076500000004,
+      28.9766885
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/hippodrome-of-constantinople-guided-tour",
+    "mapUrl": "https://www.google.com/maps?cid=3697073850367904409",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Obelisken und Spuren der antiken Rennbahn in Sultanahmet.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep86",
+    "name": "Dolmabahçe · Harem",
+    "originalName": "Dolmabahce Palace Harem Section Entry",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.03810970000001,
+      28.9971139
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/dolmabahce-palace-harem-section",
+    "mapUrl": "https://www.google.com/maps?cid=2486147983950013089",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Privater Wohnbereich des Dolmabahçe-Palasts; überschneidet sich mit dem kombinierten Palastticket.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep87",
+    "name": "Gewürzbasar",
+    "originalName": "Spice Bazaar Istanbul Tour with Audio Guide",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.016500099999995,
+      28.9705194
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/spice-bazaar-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=4952815606638334045",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "notes": "",
+    "mode": "Audioguide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep88",
+    "name": "Bosporusfahrt mit Audioguide",
+    "originalName": "Bosphorus Cruise Istanbul with Audio Guide",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.018732,
+      28.970325
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/bosphorus-cruise",
+    "mapUrl": "https://goo.gl/maps/nVPb7S44kvQiMvpC7",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Bosporusrundfahrt mit Audioguide ab Eminönü.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep89",
+    "name": "Istiklal & Taksim",
+    "originalName": "Istiklal Street and Taksim Square Audio Guide Tour",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.03700129154052,
+      28.97479196226274
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/istiklal-street-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=10133196685461993155",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Geschichten entlang der Istiklal-Strasse und rund um den Taksim-Platz.",
+    "notes": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "mode": "Audioguide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep90",
+    "name": "Rüstem-Pascha-Moschee",
+    "originalName": "Rustem Pasha Mosque Audio Guide Tour",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.0175772,
+      28.9688269
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/rustem-pasha-mosque",
+    "mapUrl": "https://www.google.com/maps?cid=440663716064808053",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "notes": "",
+    "mode": "Audioguide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep91",
+    "name": "Ortaköy",
+    "originalName": "Ortakoy Mosque and District Audio Tour",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.047215099999995,
+      29.0269478
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/ortakoy-mosque",
+    "mapUrl": "https://www.google.com/maps?cid=18263207694178437308",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Moschee, Gassen und Uferplatz unter der Bosporusbrücke.",
+    "notes": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "mode": "Audioguide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep92",
+    "name": "Balat & Fener",
+    "originalName": "Balat & Fener District Audio Guide Tour",
+    "category": "Viertel & Audioguides",
+    "benefit": "included",
+    "coords": [
+      41.029981997469115,
+      28.946113685101636
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/fener-balat-tour",
+    "mapUrl": "https://www.google.com/maps?cid=7661329327767462855",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Der E-Pass enthält hier einen Audioguide. Persönliche Ausgaben und öffentliche Verkehrsmittel sind separat.",
+    "notes": "",
+    "mode": "Audioguide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep93",
+    "name": "Museum des Alten Orients",
+    "originalName": "Museum of Ancient Oriental Works Entrance",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.0113434,
+      28.9803093
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/museum-of-ancient-oriental-works-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=3594786749547426839",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Teil des archäologischen Museumskomplexes; Zugänglichkeit des Gebäudes vor Ort prüfen.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Mit Guide",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep94",
+    "name": "Fliesenpavillon",
+    "originalName": "Tiled Pavilion Museum Entrance",
+    "category": "Geschichte & Architektur",
+    "benefit": "included",
+    "coords": [
+      41.01203879999999,
+      28.9812363
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/tiled-pavilion-museum-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=2145740590934604299",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Historischer Fliesenpavillon im Museumskomplex. Die Detailseite meldet eine vorübergehende Schliessung.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": true,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep95",
+    "name": "Der kleine Prinz · Show",
+    "originalName": "The Little Prince: An Adventure In Istanbul",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.009148219371745,
+      28.975764475755057
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/the-little-prince-an-adventure-in-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=10900686729880455308",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Bühnenadaption rund um die Geschichte des kleinen Prinzen.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep96",
+    "name": "Hop-on-Hop-off-Boot",
+    "originalName": "Hop On Hop Off Bosphorus Boat Tours",
+    "category": "Schiffe & Shows",
+    "benefit": "included",
+    "coords": [
+      41.0354808,
+      28.9940171
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/hop-on-hop-off-bosphorus-cruise",
+    "mapUrl": "https://www.google.com/maps?cid=6969946222358870481",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Boot mit mehreren Haltepunkten am Bosporus; aktuelle Saisonroute prüfen.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep98",
+    "name": "Adam-Mickiewicz-Museum",
+    "originalName": "Adam Mickiewicz Museum",
+    "category": "Museen & Freizeit",
+    "benefit": "included",
+    "coords": [
+      41.0388501,
+      28.9771391
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/adam-mickiewicz-museum",
+    "mapUrl": "https://www.google.com/maps?cid=11341953134273652830",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Kleines Museum zum polnischen Dichter Adam Mickiewicz.",
+    "notes": "Aktuelle Öffnungszeiten, Zugang und allfällige Extras vor dem Besuch auf der verlinkten E-Pass-Seite prüfen.",
+    "mode": "Details beim Anbieter",
+    "closed": false,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep103",
+    "name": "Hagia Irene",
+    "originalName": "Hagia Irene Museum Guided Tour",
+    "category": "Vorübergehend geschlossen",
+    "benefit": "included",
+    "coords": [
+      41.0082743,
+      28.981272799999996
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/hagia-irene-museum-istanbul",
+    "mapUrl": "https://www.google.com/maps?cid=15588612224583947313",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Byzantinische Kirche im äusseren Topkapı-Hof. Derzeit nicht einplanen.",
+    "notes": "Im aktuellen E-Pass-Katalog als vorübergehend geschlossen aufgeführt. Nicht fest einplanen.",
+    "mode": "Mit Guide",
+    "closed": true,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep104",
+    "name": "Mosaikmuseum des Grossen Palastes",
+    "originalName": "Great Palace Mosaics Museum Entrance",
+    "category": "Vorübergehend geschlossen",
+    "benefit": "included",
+    "coords": [
+      41.004297099999995,
+      28.977429700000002
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/great-palace-mosaics-museum",
+    "mapUrl": "https://www.google.com/maps?cid=6970977881023096801",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Mosaike aus dem Grossen Palast; wegen Renovierung derzeit nicht einplanen.",
+    "notes": "Im aktuellen E-Pass-Katalog als vorübergehend geschlossen aufgeführt. Nicht fest einplanen.",
+    "mode": "Details beim Anbieter",
+    "closed": true,
+    "area": "Istanbul",
+    "catalog": true
+  },
+  {
+    "id": "ep105",
+    "name": "Teppichknüpf-Erlebnis",
+    "originalName": "Turkish Rug Making Experience - Unveiling the Timeless Artistry",
+    "category": "Vorübergehend geschlossen",
+    "benefit": "included",
+    "coords": [
+      41.01036240208061,
+      28.975205376074797
+    ],
+    "source": "https://istanbulepass.com/istanbul-attractions/turkish-rug-making-experience",
+    "mapUrl": "https://istanbulepass.com/istanbul-attractions/turkish-rug-making-experience",
+    "mapNote": "Ungefährer Orientierungspunkt aus der Anbieterkarte. Der Original-Kartenlink führt zum Ort bzw. Treffpunkt. Bei geführten Besuchen kann der Treffpunkt vom Gebäude abweichen.",
+    "description": "Einblick in traditionelle Teppichkunst. Derzeit nicht einplanen.",
+    "notes": "Im aktuellen E-Pass-Katalog als vorübergehend geschlossen aufgeführt. Nicht fest einplanen.",
+    "mode": "Mit Guide",
+    "closed": true,
+    "area": "Istanbul",
+    "catalog": true
+  }
+];
