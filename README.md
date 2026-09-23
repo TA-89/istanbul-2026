@@ -54,9 +54,9 @@ Alle lokalen App- und Asset-URLs sind relativ; die App funktioniert auch unter e
 
 ## Noch vor der Reise klären
 
-- Kaffee am 04.10. um 16:00: Anbieter nennt 15 und 90 Minuten. Yacht-Treffpunkt bereits 16:45. Vorziehen auf 14:00 empfohlen, **nicht umgebucht**.
+- Kaffee am 04.10. um 16:00 bleibt gebucht. Am 23.09. erneut geprüft: E-Pass-Dauerabschnitt ca. 15 Min., FAQ weiterhin 90 Min.; Mail nennt keine Dauer. Der Fussweg zum bestätigten Yacht-Treffpunkt beträgt laut Google Maps 22–25 Min. (1,6–1,8 km). Bei Ende 16:15 und 25–30 Min. Wegreserve ist Ankunft 16:40–16:45 machbar. Keine pauschale Umbuchungsempfehlung mehr: kurze Dauer bestätigen lassen, nur bei längerem Workshop z. B. 14:00 anfragen. Anbieter: reservation@highlightsinturkiye.com; E-Pass: istanbul@istanbulepass.com.
 - Ebru am 04.10. um 13:00 vorgeschlagen, **nicht reserviert**.
-- Dinnerfahrt am 06.10. reserviert; finale Bestätigung und Hotelabholzeit fehlen.
+- Dinnerfahrt am 06.10. **final bestätigt** mit Mail vom 23.09.2026: um 19:15 in der Hotellobby bereit sein, Abholung zwischen 19:15 und 19:45. Fahrer fragt an der Rezeption nach dem Namen. Rücktransfer zum Hotel bestätigt. Die neue Mail nennt selbst kein Reisedatum; Zuordnung über die identische Reservierung zur bisherigen Mail für den 06.10. Die Schiffsabfahrt bleibt ohne erfundene genaue Uhrzeit.
 - Rücktransfer am 07.10. noch nicht bestätigt. 06:35 ist lediglich der Planungswert.
 
 Führungs- und Wegzeiten im Programm sind recherchierte Planungsvorschläge. Öffnungen, Verfügbarkeit und Treffpunkte vor Reiseantritt erneut prüfen. Keine Live-Synchronisation mit E-Pass.
