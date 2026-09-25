@@ -52,6 +52,8 @@ Alle lokalen App- und Asset-URLs sind relativ; die App funktioniert auch unter e
 - `dist/sync-config.js`: ausschliesslich öffentliche Verbindungsdaten; niemals Reisecode oder erhöhte API-Schlüssel.
 - `dist/sw.js`: Offline-Cache. Bei Inhaltsänderungen die Versionsnummer in `CACHE` erhöhen.
 
+Restaurantvorschläge vom 25.09.2026: Demeti nach der Sonntagsyacht, Çiçek-Passage/Seviç als Montagsoption und Çiya im Kadıköy-Programm. Jash und Arnavutköy İskele Balık ergänzen die Kartenalternativen. Fünf Punkte mit Restaurantfilter, Anbieterlinks und Favoritenfunktion; keine Tischreservierungen. Quellen und Abstimmung: [Restauranttipps](docs/restaurant-tips.md).
+
 ## Noch vor der Reise klären
 
 - Ebru am 04.10. um 13:00 vorgeschlagen, **nicht reserviert**.

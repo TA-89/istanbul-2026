@@ -25,6 +25,8 @@ Der Planer nutzt recherchierte, zeitlich begrenzte Alternativen. Bestehende Favo
 
 Die Datenbank erhält bei der ersten Einrichtung diese neun Favoriten. Vorhandene Raumdaten werden bei späteren Migrationen nicht zurückgesetzt.
 
+`20260925144722_restaurant_tips.sql` erweitert ausschliesslich die private Ortsprüfung um `demeti`, `sevic`, `ciya`, `jash` und `iskelebalik`. Bestehende Daten, Anmeldung und Rechte bleiben erhalten. Alle Migrationen chronologisch anwenden.
+
 ## Verifizierter Betrieb und Sicherheitsmodell
 
 Die echte API wurde mit zwei unterschiedlichen Sitzungstoken getestet: paralleles Setzen verschiedener Favoriten, gemeinsames Entfernen, Ablehnung veralteter Vorschauen, gemeinsame Planübernahme, Rückgängig, Wiederholung derselben Anfrage, Ablehnung bereits gebuchter Orte und verweigerter Zugriff auf private Tabellen. Anschliessend wurden dieselben Abläufe in zwei Browser-Ursprüngen mit getrenntem Speicher geprüft. Der Endzustand enthält die neun Startfavoriten und den ursprünglichen Plan.
